@@ -13,3 +13,5 @@ bundle config --global jobs '8' && \
 bundle config --global path 'vendor/bundle' && \
 bundle config --global without 'development:test'
 
+ENV COMMAND 'ruby -v'
+
